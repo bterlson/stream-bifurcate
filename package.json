@@ -1,0 +1,33 @@
+{
+  "name": "stream-bifurcate",
+  "version": "1.0.0",
+  "description": "Bifurcate (fork) a stream into multiple distributaries",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bterlson/stream-bifurcate"
+  },
+  "keywords": [
+    "stream",
+    "fork",
+    "bifurcate",
+    "split",
+    "tributary",
+    "distributary"
+  ],
+  "author": "Brian Terlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bterlson/stream-bifurcate/issues"
+  },
+  "homepage": "https://github.com/bterlson/stream-bifurcate",
+  "devDependencies": {
+    "tape": "^3.0.1"
+  }
+}
