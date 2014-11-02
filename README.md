@@ -4,7 +4,7 @@ Bifurcates (forks) a stream into one or more distributaries. Chunks are written 
 
 # Example
 ```js
-var Tributary = require('./');
+var Tributary = require('stream-bifurcate');
 var trb = new Tributary();
 
 var o1 = trb.fork();
